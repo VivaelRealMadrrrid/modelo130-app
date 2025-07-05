@@ -5,6 +5,9 @@ import os
 from typing import List, Dict
 from datetime import datetime
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+
+import pytesseract
 from PIL import Image
 import base64
 import json
