@@ -5,9 +5,6 @@ import os
 from typing import List, Dict
 from datetime import datetime
 import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-
-import pytesseract
 from PIL import Image
 import base64
 import json
@@ -271,6 +268,3 @@ st.markdown("""
 - Asegúrese de revisar y corregir cualquier dato extraído automáticamente.  
 - Los cálculos se realizan bajo supuestos simplificados; consulte siempre con un asesor fiscal.  
 """)
-
-
-
